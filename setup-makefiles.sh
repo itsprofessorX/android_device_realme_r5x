@@ -65,6 +65,11 @@ function lib_to_package_fixup_vendor_variants() {
             vendor.qti.ims.rcsconfig@1.1)
             echo "${1}_vendor"
             ;;
+            libgrallocutils | \
+            libutils-v30 | \
+            libhidlbase-v32 | \
+            libwpa_client)
+            ;;
         *)
             return 1
             ;;
