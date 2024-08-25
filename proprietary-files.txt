@@ -98,19 +98,19 @@ vendor/firmware/tfa98xx.cnt
 # Bluetooth - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|07d96d0d3c4a500b14ea3c97e02b9eb5ee2bbc4d
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|f4ee3b2da2b08647447869ade86ec63f7340accc
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|f625d9c7b54b2a6cccc3df0988eb57026a7a7259
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|3d133dab1eb6f04f2089b5460ec6870da9783437
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so;DISABLE_DEPS|f625d9c7b54b2a6cccc3df0988eb57026a7a7259
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so;DISABLE_DEPS|3d133dab1eb6f04f2089b5460ec6870da9783437
 vendor/lib64/libbt-hidlclient.so|ff301380cf3c0ff68d2b7fcda3ba428ebf0a859e
 vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
 
 # Bluetooth (A2DP) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
-vendor/lib/hw/audio.bluetooth_qti.default.so|6ce26888f5b67e3e211a7cfe11554d842162ae07
+vendor/lib/hw/audio.bluetooth_qti.default.so;DISABLE_DEPS|6ce26888f5b67e3e211a7cfe11554d842162ae07
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|7d9503fce83522d27bcdae531a4e0b320281f85f
-vendor/lib/btaudio_offload_if.so|a6a47f8397048e0286d6291b1996d6af16cbe241
+vendor/lib/btaudio_offload_if.so;DISABLE_DEPS|a6a47f8397048e0286d6291b1996d6af16cbe241
 vendor/lib/libbluetooth_audio_session_qti.so|0b306bac29ba1beff74c9e84785f0e77efb4402c
-vendor/lib64/hw/audio.bluetooth_qti.default.so|e5f1e800b423d026070c263e6d1120ca9665c427
+vendor/lib64/hw/audio.bluetooth_qti.default.so;DISABLE_DEPS|e5f1e800b423d026070c263e6d1120ca9665c427
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|8bfbc542d600d4986b7c42281ffccfa75094ca5b
-vendor/lib64/btaudio_offload_if.so|8123f7b390fb69e80df8e28d069521b743633246
+vendor/lib64/btaudio_offload_if.so;DISABLE_DEPS|8123f7b390fb69e80df8e28d069521b743633246
 vendor/lib64/libbluetooth_audio_session_qti.so|78bb8ada323d87a93600009557949bd1552877f0
 
 # Bluetooth (Configstore) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
@@ -131,14 +131,14 @@ vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|ece3dafc4447e8302109851c3a
 vendor/lib/hw/camera.trinket.so
 vendor/lib/imx386_PdafLibrary.so
 vendor/lib/libDxHdcp.so
-vendor/lib/libSNPE.so
+vendor/lib/libSNPE.so;DISABLE_DEPS
 vendor/lib/libSTDualCamCaptureBokeh.so
 vendor/lib/libSTdisp.so
 vendor/lib/libVDBlurlessAPI_v2.so
 vendor/lib/libVDDualCameraBlurlessAPI.so
 vendor/lib/libVDPostureDetection.so
 vendor/lib/libVDSuperPhotoAPI.so
-vendor/lib/libalgo.public.so
+vendor/lib/libalgo.public.so;DISABLE_DEPS
 vendor/lib/libbase64.so
 vendor/lib/libcamera_core_hwi.so
 vendor/lib/libcvface_api.so
@@ -165,15 +165,15 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libseemore.so
 vendor/lib/libsnpe_dsp_domains_v2.so
-vendor/lib/libsnpeml.so
+vendor/lib/libsnpeml.so;DISABLE_DEPS
 vendor/lib/libstblur_capture_api.so
 vendor/lib/libstface_fd_api.so
 vendor/lib/libstface_seg_ocl.so
 vendor/lib/libstfaceunlockocl.so
-vendor/lib/libswresample.so
-vendor/lib/libswscale.so
+vendor/lib/libswresample.so;DISABLE_DEPS
+vendor/lib/libswscale.so;DISABLE_DEPS
 vendor/lib/libswvdec.so
-vendor/lib/libsymphony-cpu.so
+vendor/lib/libsymphony-cpu.so;DISABLE_DEPS
 vendor/lib/libsymphonypower.so
 vendor/lib/libvideoutils.so
 
@@ -214,21 +214,21 @@ vendor/lib/libarcsoft_dualcam_refocus_left.so
 vendor/lib/libarcsoft_dualcam_refocus_preview.so
 vendor/lib/libarcsoft_dualcam_refocus_right.so
 vendor/lib/libarcsoft_hdr_couple_api.so
-vendor/lib/libarcsoft_hdr_denoise_api.so
+vendor/lib/libarcsoft_hdr_denoise_api.so;DISABLE_DEPS
 vendor/lib/libarcsoft_hdrplus_hvx_stub.so
-vendor/lib/libarcsoft_high_dynamic_range.so
+vendor/lib/libarcsoft_high_dynamic_range.so;DISABLE_DEPS
 vendor/lib/libarcsoft_high_dynamic_range_couple.so
-vendor/lib/libarcsoft_low_light_hdr.so
+vendor/lib/libarcsoft_low_light_hdr.so;DISABLE_DEPS
 vendor/lib/libarcsoft_picauto.so
-vendor/lib/libarcsoft_smart_denoise.so
+vendor/lib/libarcsoft_smart_denoise.so;DISABLE_DEPS
 vendor/lib/libarcsoft_super_night_raw.so
 vendor/lib/libarcsoft_videostabilizer.so
 vendor/lib/libarcvs.dep.so
 vendor/lib/libarcvs.so
-vendor/lib64/libarcsoft_hdr_denoise_api.so
-vendor/lib64/libarcsoft_high_dynamic_range.so
-vendor/lib64/libarcsoft_low_light_hdr.so
-vendor/lib64/libarcsoft_smart_denoise.so
+vendor/lib64/libarcsoft_hdr_denoise_api.so;DISABLE_DEPS
+vendor/lib64/libarcsoft_high_dynamic_range.so;DISABLE_DEPS
+vendor/lib64/libarcsoft_low_light_hdr.so;DISABLE_DEPS
+vendor/lib64/libarcsoft_smart_denoise.so;DISABLE_DEPS
 
 # Camera bin
 vendor/bin/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service
@@ -1652,7 +1652,7 @@ vendor/lib/libois_lc898122.so
 # Camera oppo
 vendor/bin/oppoalgo_daemon
 vendor/etc/init/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-service.rc
-vendor/lib/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so
+vendor/lib/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so;DISABLE_DEPS
 vendor/lib/hw/vendor.oppo.hardware.camera.oppoHalAssist@1.0-impl.so
 vendor/lib/libOPPORectify.so
 vendor/lib/libOccluDetect.so
@@ -1663,7 +1663,7 @@ vendor/lib/libPerfectlyClearCrux.so
 vendor/lib/libblur_channel.so
 vendor/lib/libnnp.so
 vendor/lib/libocam_common.so
-vendor/lib/liboppo_aisd.so
+vendor/lib/liboppo_aisd.so;DISABLE_DEPS
 vendor/lib/liboppo_log_print.so
 vendor/lib/liboppo_platform_hwi.so
 vendor/lib/liboppoalgolib.so
@@ -1673,7 +1673,7 @@ vendor/lib/libst_segmentation.so
 vendor/lib/libthread_blur.so
 vendor/lib/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0.so
 vendor/lib/vendor.oppo.hardware.camera.oppoHalAssist@1.0.so
-vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so
+vendor/lib64/hw/vendor.oppo.hardware.camera.oppoAlgoProcessService@1.0-impl.so;DISABLE_DEPS
 vendor/lib64/libOppoAPSMemMgr.so
 vendor/lib64/libOppoAlgoClient.so
 vendor/lib64/liboppo_log_print.so
@@ -1957,12 +1957,12 @@ vendor/etc/cne/mwqem.conf|c42ad47b34b511075e5dfb9047d32f881fe0c159
 vendor/etc/cne/profileMwqem.xml|947917691684584b7e2ddf3588cd6f8e99f3804f
 vendor/etc/default-permissions/com.qualcomm.qti.cne.xml|c63c37d067e3009735fbc54d4603d43d7d6623e1
 vendor/etc/init/cnd.rc|3a5183df3479500fb729493bc56c71166fc10bce
-vendor/lib64/libcne.so|03cf15975c6afe694c1a5c7d4df96aed7b5a5170
+vendor/lib64/libcne.so;DISABLE_CHECKELF|03cf15975c6afe694c1a5c7d4df96aed7b5a5170
 vendor/lib64/libcneapiclient.so|0973dc05f6d6d9c469fc804693af79e6f3a5056a
 vendor/lib64/libcneoplookup.so|60d6abe85061de4fa75e5e4f69d477f37f1f8f64
 vendor/lib64/libcneqmiutils.so|c2e2658698eb8b312ca6b28c1a1088a331bb28b9
 vendor/lib64/libwms.so|c1583704d05d38b6957a84c3fcc4660e6380886e
-vendor/lib64/libwqe.so|f80786b26c9ee705f1695f798fca1f5f45bee19c
+vendor/lib64/libwqe.so;DISABLE_CHECKELF|f80786b26c9ee705f1695f798fca1f5f45bee19c
 vendor/lib64/libxml.so|6d5f9b6be0212bde7b961803fec9302e8529b54a
 vendor/lib64/vendor.qti.data.factory@2.0.so|748bfbaa57a409b8962e2b1725e1415e423a7315
 vendor/lib64/vendor.qti.data.factory@2.1.so|bb1f3fa22563282ee24bf03ca681fdc45551feef
@@ -2135,7 +2135,7 @@ vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|14819df15693c737fb2a
 # GPS - from LA.UM.9.15.2.r1-09800-KAMORTA.QSSI14.0
 vendor/bin/garden_app|f03490aa94b121d0d1d82b8715612785bc2a38f9
 vendor/bin/loc_launcher|f0b95b7d523d2785a3090c2598c4bbd6170f1ba1
-vendor/bin/lowi-server|36be139901b773cf532c3788828737b0f035bea2
+vendor/bin/lowi-server;DISABLE_CHECKELF|36be139901b773cf532c3788828737b0f035bea2
 vendor/bin/slim_daemon|7f2a24a3cfa5937247c6066777a8548607b06d0c
 vendor/bin/xtra-daemon|94df0c3982c5280b4200ee50850a0f468401d4a6
 vendor/etc/vintf/manifest/vendor.qti.gnss@4.3-service.xml|7595c487d8096e8f759d3025c3ee59d351b42709
@@ -2154,7 +2154,7 @@ vendor/lib64/liblbs_core.so|46d8033a4058de2ff88bbd87f34f547047c3638b
 vendor/lib64/libloc_api_v02.so|03d11f71546d8105292d622cff81e153761f4ddd
 vendor/lib64/libloc_api_wds.so|d359c51a23fa6706c979547196086a816aeeb556
 vendor/lib64/libloc_qwes_iface.so|e2d2d16163ca33ae11bffd63893a151d09f710f1
-vendor/lib64/libloc_ril_client.so|49cdc0200323e081c2a2ba4763a8e7d4f4826ead
+vendor/lib64/libloc_ril_client.so;DISABLE_DEPS|49cdc0200323e081c2a2ba4763a8e7d4f4826ead
 vendor/lib64/libloc_socket.so|d5ce9f5403a34fb826b86fe68e9b07f64bfabcab
 vendor/lib64/liblocationservice.so|f71e388d1d3252ac89ec669ee6850e8ac2ec27b1
 vendor/lib64/liblocationservice_glue.so|afc93b3326dfafbdce6a35085cbea9454190d5d0
@@ -2230,9 +2230,9 @@ vendor/lib64/libllvm-qgl.so|e69f777067b49a4e54970b5d6b0e7622f56c1412
 
 # Graphics (Adreno) - from nabu V13.0.3.0.RKXCNXM
 vendor/lib/libC2D2.so|fafaeb8e08cc62dbad97d1c73af524ae47806c7c
-vendor/lib/libc2d30_bltlib.so|cbd2c5b449d568f36ef13cd9fa6774e07db4265b
+vendor/lib/libc2d30_bltlib.so;DISABLE_CHECKELF|cbd2c5b449d568f36ef13cd9fa6774e07db4265b
 vendor/lib64/libC2D2.so|fafaeb8e08cc62dbad97d1c73af524ae47806c7c
-vendor/lib64/libc2d30_bltlib.so|cbd2c5b449d568f36ef13cd9fa6774e07db4265b
+vendor/lib64/libc2d30_bltlib.so;DISABLE_CHECKELF|cbd2c5b449d568f36ef13cd9fa6774e07db4265b
 
 # Graphics (DRM) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/lib64/libsdedrm.so|2a9a6f8b79ee8c916a656a670b3670105e143418
@@ -2300,7 +2300,7 @@ vendor/lib64/libqcodec2.so|ebcb7ae53c292d689b57450120e280c5797cfaa1
 # Media (VPP) - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/etc/configstore/vpp.configstore.xml|ed961545186c66fd9523f25866c74f2e11ee63d7
 vendor/etc/init/vppservice.rc|24c089e0e413cbb3fa6daaf0af4215870bdf1b8e
-vendor/lib64/libOmxVpp.so|e10d0e04a35e7d517fb6554b3a3a8d777404052a
+vendor/lib64/libOmxVpp.so;DISABLE_CHECKELF|e10d0e04a35e7d517fb6554b3a3a8d777404052a
 vendor/lib64/libvppclient.so|e63252fe6692c05bb4192cdf2054fc252f9d2f9f
 vendor/lib64/libvpphvx.so|d92a352a9990c77b5724784e8c827637b850d53e
 vendor/lib64/libvpplibrary.so|71152f530320f55862c1f4afc1957597f4c8e9f0
@@ -2380,7 +2380,7 @@ vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
 vendor/lib/libidl.so
 vendor/lib/libmdmdetect.so
-vendor/lib/libminkdescriptor.so
+vendor/lib/libminkdescriptor.so;DISABLE_DEPS
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqdi.so
 vendor/lib/libqdp.so
@@ -2396,7 +2396,7 @@ vendor/lib64/libdiag.so
 vendor/lib64/libdsutils.so
 vendor/lib64/libidl.so
 vendor/lib64/libmdmdetect.so
-vendor/lib64/libminkdescriptor.so
+vendor/lib64/libminkdescriptor.so;DISABLE_DEPS
 vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqdi.so
 vendor/lib64/libqdp.so
@@ -2461,7 +2461,7 @@ system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so|c872a91663d82643bbd92041978e
 system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so|fd07e9de5508f20f077cd7cc61f17b8595cb274e
 system_ext/lib64/com.qualcomm.qti.uceservice@2.2.so|a8b06abf636604b815468e4cedc87ef4f0e22e66
 system_ext/lib64/com.qualcomm.qti.uceservice@2.3.so|741285b15d3cb272269e4244898e8239b9f089a6
-system_ext/lib64/lib-imsvideocodec.so|fe3f4e54ef28d6739dae639faed9e56672bce707
+system_ext/lib64/lib-imsvideocodec.so;DISABLE_CHECKELF|fe3f4e54ef28d6739dae639faed9e56672bce707
 system_ext/lib64/lib-imsvt.so|ccd0a8655f950d3fa418ec9ec717ba2e96b2ac87
 system_ext/lib64/lib-imsvtextutils.so|19b0a5b9119388e735729e9a86ee7ee0a1355077
 system_ext/lib64/lib-imsvtutils.so|8a8d4f3c6b57fc3a31f0982a9cd43b990514e1a7
@@ -2483,7 +2483,7 @@ system_ext/lib64/vendor.qti.imsrtpservice@3.1.so|d1b6a6eabf17e43e98dcc4372fdabea
 
 # Radio - IMS (vendor)
 vendor/bin/ims_rtp_daemon
-vendor/bin/imsdatadaemon
+vendor/bin/imsdatadaemon;DISABLE_CHECKELF
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
 vendor/etc/init/ims_rtp_daemon.rc
@@ -2566,9 +2566,9 @@ vendor/lib64/libqcrilFramework.so
 vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqrtr.so
 vendor/lib64/libqsocket.so
-vendor/lib64/libril-qc-hal-qmi.so
+vendor/lib64/libril-qc-hal-qmi.so;DISABLE_DEPS
 vendor/lib64/libril-qc-ltedirectdisc.so
-vendor/lib64/libril-qc-qmi-1.so
+vendor/lib64/libril-qc-qmi-1.so;DISABLE_DEPS
 vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/libsettings.so
@@ -2631,7 +2631,7 @@ vendor/lib/libsensorcal.so
 vendor/lib/libsensorslog.so
 vendor/lib/libssc.so
 vendor/lib/libssc_default_listener.so
-vendor/lib/sensors.ssc.so
+vendor/lib/sensors.ssc.so;DISABLE_DEPS
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/android.hardware.sensors@2.0-impl.so
@@ -2642,7 +2642,7 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/libsnsdiaglog.so
 vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
-vendor/lib64/sensors.ssc.so
+vendor/lib64/sensors.ssc.so;DISABLE_DEPS
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
 # Sensor configs
@@ -2698,9 +2698,9 @@ vendor/bin/ssr_diag
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
 vendor/lib/libSubSystemShutdown.so
-vendor/lib/libsubsystem_control.so
+vendor/lib/libsubsystem_control.so;DISABLE_DEPS
 vendor/lib64/libSubSystemShutdown.so
-vendor/lib64/libsubsystem_control.so
+vendor/lib64/libsubsystem_control.so;DISABLE_DEPS
 
 # Thermal - from RMX2050_11.C.10
 vendor/bin/thermal-engine|75a541bb2e5005f9391c81d11f21748f1eef9deb
