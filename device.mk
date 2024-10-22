@@ -433,13 +433,11 @@ $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.
 
 # VNDK
 PRODUCT_PACKAGES += \
-    libutils.vendor
+    libutils.vendor \
+    libutils-v30 \
+    libhidlbase-v32
 
 BOARD_SHIPPING_API_LEVEL := 30
-
-PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so \
-    prebuilts/vndk/v30/arm64/arch-arm64-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libutils-v30.so
 
 # Wifi
 PRODUCT_PACKAGES += \
