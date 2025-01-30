@@ -105,8 +105,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@3.0-impl-qti-display \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
     vendor.qti.hardware.memtrack-service \
-    gralloc.trinket \
-    hwcomposer.trinket \
     libdisplayconfig.system.qti \
     libdisplayconfig.qti \
     libtinyxml \
@@ -282,11 +280,7 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor \
     libmm-omxcore \
-    libOmxAacEnc \
-    libOmxAmrEnc \
     libOmxCore \
-    libOmxEvrcEnc \
-    libOmxG711Enc \
     libplatformconfig \
     libstagefrighthw \
     libstagefright_omx.vendor \
