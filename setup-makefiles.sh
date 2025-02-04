@@ -70,6 +70,9 @@ function lib_to_package_fixup_vendor_variants() {
             libhidlbase-v32 | \
             libwpa_client)
             ;;
+            libprotobuf-cpp-full)
+            echo "libprotobuf-cpp-full-vendorcompat"
+            ;;
         *)
             return 1
             ;;
